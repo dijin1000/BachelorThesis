@@ -1,2 +1,11 @@
 # BachelorThesis
-This project is for the bachelor thesis project in 2017 - The problem is regarding the Leprechaun Hatting Problem
+This project is for the bachelor thesis project in 2017 - The problem is regarding the Leprechaun Hatting Problem. 
+
+The paper conducting this problem with help of this code investigates the Leprechaun Hatting Problem. This problem can be categorized as a mathematical puzzle problem. This category of problems has many ways to solve or finding a solution to the game. In this thesis the Leprechaun Hatting Problem will be solved to find the best solutions for this game. This problem is also in the category of Artifical Intelligence because there are agents(Leprechaun’s) which need to guess their
+hat color based on the other agents. The first similar appearance of this problem was by Martin Gardner 3 Prisoners problem [Gar06], in which prisoners needed to guess their chances of getting pardoned. The first occurrence described with the Leprechauns as the agents was by Todd Ebert [Ebe98]. He described that the problem to solve the problem the strategy behind the agent should have certain properties. To prove that to maximize the win chance of the players the strategy needs these properties, this paper will prove it by simulating all relevant deals. The thesis seeks to answer to the question how to find the strategies with the most desirable outcome. Furthermore this thesis will try to find a method to answer this question in the shortest possible time to calculate these deals. This thesis will discussed and evaluated two methods, which make deals in two different ways. The first method is the Brute Force Method which is a standard method for creating deals. The Brute Force Method creates each possible deal by making all combination of strategies possible for each agent. This is the exhaustive but complete method, and will be used as baseline to test the effectiveness of the second method. The second method is the Chain-Method, which is more robust and will not cover all strategies. The aim of this method is to use the properties of the maximal deals. The thesis defined so-called Chains to contain these properties.
+
+# References
+- [Ebe98] Todd Ebert. Applications of Recursive Operators to Randomness and Complexity. PhD thesis, University
+of California, Santa Barbara, 1998.
+- [Gar06] Martin Gardner. Aha! A Two Volume Collection: Aha! Gotcha Aha! Insight. Mathematical Association
+of America, 2006.
